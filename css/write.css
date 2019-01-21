@@ -1,0 +1,173 @@
+
+.portfolio_back{
+
+
+}
+/*   instagram 폼으로  */
+	.write_form{
+			height:965px;
+			width:50%;			
+/*			가운데 정렬 */
+			margin:auto;
+/*			헤더크기만큼*/
+			margin-top:60px;
+/*			부모 자식 나누기위함   form 밖으로 못나감 .*/
+			overflow:hidden;
+/*			테두리 선 나눔 */
+/*			border:0.2px solid gray;*/
+
+		
+	}
+	.write_prod{
+			width:800px;
+			height:890px;
+			box-shadow: 0px 6px 15px 4px #928f8f;
+			margin:auto;
+	}
+	.write_inner{
+			overflow: hidden;
+/*			background-color: red;*/
+			width:800px;
+			height:600px;
+			margin:auto;
+			margin-top:50px;
+/*			background-image:url('../image/portfolio1.jpg');*/
+/*			box-shadow: 0px 6px 15px 4px #928f8f;*/
+	
+	}
+	.write_inner img{
+		width:100%;
+		height:100%;
+	}
+	.write_comment{
+/*	background-color: gray;*/
+/*	border:0.2px solid gray;*/
+		margin:auto;
+		width:800px;
+		height:200px;
+		margin-top:0px;
+	}
+/**/
+/*	.write_comment input{*/
+/**/
+/*		margin-top:179px;*/
+/*		margin-left:30px;*/
+/*	}*/
+	.write_comment p{
+		padding:5px;
+		color:#211C39;
+	
+		 text-align:center;
+
+
+	}
+	hr.title{
+		width:45px;
+	}
+
+	.write_add_img{
+		
+	 margin-top: 13px;
+    display:inline-flex;
+    margin-right: 0px;
+    float: right;
+    padding-right: 10px;
+	height:45px;
+
+	}
+	.clear{ 
+	clear:both; display:block; content:""; 
+	}
+	.comment{
+	background-color: gray;
+	margin:auto;
+	margin-top:50px;
+
+	}
+
+
+
+	
+
+
+		#input_img{
+			margin-top:50px;
+		}
+
+		.textarea{
+		resize:none;
+		width:80%;
+		height:50%;
+		}
+		.upload-name {
+		display: inline-block; 
+	
+		font-size: inherit; 
+		font-family: inherit; 
+		line-height: normal;
+		vertical-align: middle;
+		background-color: #f5f5f5;
+		border: 1px solid #ebebeb; 
+		border-bottom-color: #e2e2e2; 
+		border-radius: .25em; 
+		-webkit-appearance: none; /* 네이티브 외형 감추기 */ 
+		-moz-appearance: none; 
+		appearance: none;
+		padding-left:5px;
+		margin-left: 2px;
+
+
+}
+
+
+input[type="file"]{
+position: absolute; 
+width: 1px; 
+height: 1px; 
+padding: 0; 
+margin: -1px;
+overflow: hidden; 
+clip:rect(0,0,0,0); 
+border: 0; 
+}
+label {
+    font-family: 'Lato', sans-serif;
+    display: inline-flex;
+    padding: 0;
+    color: #999;
+    height: 30px;
+    margin-right: 10px;
+    /* font-size: inherit; */
+    /* line-height: normal; */
+    /* vertical-align: middle; */
+    /* background-color: #fdfdfd; */
+    /* cursor: pointer; */
+    /* border: 1px solid #ebebeb; */
+    /* border-bottom-color: #e2e2e2; */
+    /* border-radius: .25em; */
+}
+button{
+/*	background:url('./image/add_prd.png') no-repeat;*/
+    font-family: 'Lato', sans-serif;
+	width:100px;
+	height:30px;
+	border-radius: 5px;
+	 border: none;
+
+
+}
+input[type=text]{
+    font-family: 'Lato', sans-serif;
+	border:1px solid #aaa;
+	border-radius:5px;
+	outline:none;
+/*	0.3초정도로 느리게*/
+	transition:.3s;
+}
+/*포커싱 올시*/
+input[type=text]:focus{
+	border-color:afcaf6 ;
+	box-shadow:0 0 8px 0 afcaf6 ;
+}
+
+

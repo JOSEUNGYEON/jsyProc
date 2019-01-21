@@ -1,0 +1,118 @@
+
+.portfolio_back{
+
+
+}
+/*   instagram 폼으로  */
+	.instagram_form{
+			height:100%;
+			width:100%;			
+/*			가운데 정렬 */
+			margin:auto;
+/*			헤더크기만큼*/
+			margin-top:60px;
+/*			부모 자식 나누기위함   form 밖으로 못나감 .*/
+			overflow:hidden;
+/*			테두리 선 나눔 */
+/*			border:0.2px solid gray;*/
+
+		
+	}
+	.instagram_prod{
+			width:800px;
+			height:800px;
+			box-shadow: 0px 6px 15px 4px #928f8f;
+			margin:auto;
+	}
+	.instagram_inner{
+			background-color: red;
+			width:800px;
+			height:600px;
+			margin:auto;
+			margin-top:50px;
+/*			background-image:url('../image/portfolio1.jpg');*/
+/*			box-shadow: 0px 6px 15px 4px #928f8f;*/
+			
+
+	}
+	.instagram_comment{
+/*	background-color: gray;*/
+/*	border:0.2px solid gray;*/
+		margin:auto;
+		width:800px;
+		height:200px;
+		margin-top:0px;
+	}
+
+	.instagram_comment input{
+
+		margin-top:179px;
+		margin-left:30px;
+	}
+	.instagram_comment p{
+		padding:5px;
+		color:#211C39;
+	
+		 text-align:center;
+
+
+	}
+	hr.title{
+		width:45px;
+	}
+
+	.like_img{
+		
+		margin-right:0px;
+		float:right;
+	}
+	.clear{ 
+	clear:both; display:block; content:""; 
+	}
+	.comment{
+	background-color: gray;
+	margin:auto;
+	margin-top:50px;
+
+	}
+
+
+	.main_form {
+    width:800px;
+}
+.lsGrab{
+	    height: 940px;
+}
+.instagram_inner img{
+	height:100%;
+	width:100%;
+}
+.lSGallery{
+	margin:0 auto;
+	margin-bottom:30px;
+	 
+}
+.lSGallery li{
+	margin:0 auto;
+	margin-bottom:30px;
+	margin-right:0px;
+	 
+}
+.lSSlideWrapper.usingCss{
+    height: 925px;
+
+}
+.main_fo ul.main_for {
+    margin-top: 5px;
+    transition-duration: 2000ms;
+    width: 848.5px;
+    transform: translate3d(0px, 0px, 0px);
+    /* border: 1px solid red; */
+    box-shadow: 0px 1px 15px 4px #928f8f;
+    margin-bottom: 43px;
+}
+.main_fo ul li {
+ width:100%;
+
+}
+
